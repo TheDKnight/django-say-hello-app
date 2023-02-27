@@ -16,7 +16,7 @@ import os
 if os.path.isfile("env.py"):
     import env
 import dj_database_url
-import env
+
 
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
@@ -32,7 +32,7 @@ SECRET_KEY = 'django-insecure-==as3)vwj#b)l_&!@dq195v#-1)_yw1%re+kgd&ya9lc%qgr@l
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['https://django-todo-app-ac.herokuapp.com/']
 
 
 # Application definition
